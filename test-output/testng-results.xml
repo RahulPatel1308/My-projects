@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-17T12:33:02 EDT" name="Orange HRM" finished-at="2022-04-17T12:36:57 EDT" duration-ms="235632">
+    <groups>
+    </groups>
+    <test started-at="2022-04-17T12:33:02 EDT" name="TestNG" finished-at="2022-04-17T12:36:57 EDT" duration-ms="235632">
+      <class name="testlayer.LoginTest">
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:33:02 EDT" name="initsetup" finished-at="2022-04-17T12:33:32 EDT" duration-ms="30260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="Title()[pri:1, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:33:32 EDT" name="Title" finished-at="2022-04-17T12:33:32 EDT" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:33:39 EDT" name="initsetup" finished-at="2022-04-17T12:36:29 EDT" duration-ms="170335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:36:29 EDT" name="login" data-provider="Details" finished-at="2022-04-17T12:36:29 EDT" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:36:29 EDT" name="initsetup" finished-at="2022-04-17T12:36:44 EDT" duration-ms="14772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:36:44 EDT" name="login" data-provider="Details" finished-at="2022-04-17T12:36:44 EDT" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="initsetup()[pri:0, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:36:44 EDT" name="initsetup" finished-at="2022-04-17T12:36:57 EDT" duration-ms="12733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initsetup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:2, instance:testlayer.LoginTest@4ac3c60d]" started-at="2022-04-17T12:36:57 EDT" name="login" data-provider="Details" finished-at="2022-04-17T12:36:57 EDT" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testlayer.LoginTest -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Orange HRM -->
+</testng-results>
